@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout.js"
-import BlogList from "../components/list.js"
+//import BlogList from "../components/list.js"
 import style from "../styles/intro.module.css"
 
 export default ({data}) => {
@@ -15,7 +15,6 @@ export default ({data}) => {
                 </div>
             </div>
             <div className="blog-list container">
-                <BlogList />
             </div>
         </Layout>
     )

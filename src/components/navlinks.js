@@ -1,6 +1,6 @@
 import React from "react"
 import {Link} from "gatsby"
-import style from "../styles/nav.module.css"
+//import style from "../styles/nav.module.css"
 
 export default () => {
     return(
